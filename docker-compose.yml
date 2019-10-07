@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  weather:
+    environment:
+     - IOS_APP_ID=0
+     - ANDROID_APP_ID=1
+     - OPEN_WEATHER_API_KEY=replaceme
+
+    image: jabaridash/weather-api
+    container_name: weather-api
+    ports:
+     - "8080:80"

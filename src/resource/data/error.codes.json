@@ -1,0 +1,8 @@
+{
+  "success"                   : 0,
+  "databaseSetupFailure"      : 100,
+  "serviceSetupFailure"       : 200,
+  "controllerSetupFailure"    : 300,
+  "applicationSetupFailure"   : 400,
+  "applicationStartupFailure" : 401
+}

@@ -1,0 +1,32 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "Weather API that calls other weather APIs",
+  "main": "src/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "curl -i -H \"app-id:$IOS_APP_ID\" localhost:8080/weather?q=Chicago,us"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N02870941/weather-api.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "Jabari Dash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/N02870941/weather-api/issues"
+  },
+  "homepage": "https://github.com/N02870941/weather-api#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "express-timeout-handler": "^2.1.2",
+    "gunzip-file": "^0.1.1",
+    "sqlite3": "^4.0.1"
+  }
+}
