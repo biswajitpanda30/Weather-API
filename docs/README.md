@@ -1,5 +1,4 @@
 # Weather API
-[![Build Status](https://travis-ci.com/N02870941/weather-api.svg?branch=master)](https://travis-ci.com/N02870941/weather-api)
 
 Weather API is a wrapper around various [Open Weather Map][open-weather] APIs for supplying data to
 [Weather for iOS][weather-ios], [Weather for Android][weather-android] and the [Weather web app](http://weather.jabaridash.com).
