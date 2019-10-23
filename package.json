@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/N02870941/weather-api#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "express": "^4.16.3",
     "express-timeout-handler": "^2.1.2",
     "gunzip-file": "^0.1.1",
